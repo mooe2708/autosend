@@ -18,20 +18,10 @@ Deploy Disini : https://sepolia.tea.xyz/address/0x847d23084C474E7a0010Da5Fa869b4
 
 **Notes : Sesudah deploy, copy contract address token kalian**
 
-# Clone repositorynya
-```
-git clone https://github.com/freezydkz/Bulk-transfer-tea.git
-cd Bulk-transfer-tea
-```
-
-# Create screen ( Biar bisa running di background )
-```
-screen -Rd bulktransfer
-```
+for termux user android
 
 # Install NPM , dotenv sama axios dulu di Linux
 ```
-apt install npm
 ```
 ```
 npm install dotenv
@@ -57,20 +47,6 @@ Step by Step menggunakan botnya :
 ```
   node teatransfer.js
 ```
-- Masukkan jumlah penerima dan Jumlah token yang akan dikirim
-- Selesai, selamat berbulking bulking ria~
 
-Notes :
-- Kalo kalian pengen botnya jalan di background, pencet CTRL A + D .
-- Kalo kalian mau balikin lagi botnya , pakai command ini
-```
-screen -r bulktransfer
-```
-- Kalo kalian mau matiin, tinggal klik CTRL + C
 
-Join our telegram community here : https://t.me/ETRxCrypto
 
-Thanks for the Source :
-- KYC Adresses : https://tea.daov.xyz/kyc-address
-- Original Script : https://github.com/ashev33/bulk-transfer-tea
-- GPT
