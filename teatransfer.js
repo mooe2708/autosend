@@ -58,7 +58,7 @@ async function fetchKYCAddresses() {
 }
 
 // Waktu operasi dalam jam WIB
-const operationalHours = [8, 12, 15, 19, 21];
+const operationalHours = [1 , 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23];
 
 // Fungsi untuk menunggu sampai jam operasi
 async function waitForNextRun() {
